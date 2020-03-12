@@ -1,0 +1,101 @@
+body{
+    background: peachpuff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.calculator {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    width: 580px;
+    height: 700px;
+    border: 4px solid blueviolet;
+    padding: 1%;
+    border-radius: 2%;
+    background: #00EBFA;
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 550px;
+    height: 100px;
+}
+
+.display {
+    background: darkgrey;
+    width: 325px;
+    height: 90px;
+    padding-top: 2%;
+    border-radius: 2%;
+    border: 3px solid #8A2BE2;
+}
+
+.clear {
+    /* width: 90px;
+    height: 80px; */
+    padding-top: 1%; 
+}
+
+.clear button {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-part {
+    display: flex;
+    /* justify-content: center; */
+    padding-top: 5%;
+    width: 600px;
+    height: 500px;
+}
+
+.bottom-part ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
+li {
+    width: 120px;
+    height: 120px;
+}
+
+li button {
+    width: 100px;
+    height: 100px;
+    
+}
+
+/* li .more-special button {
+    display: flex;
+    justify-content: space-around;
+} */
+
+li:nth-child(13) {
+    /* background: red; */
+    width: 250px;
+}
+
+li:nth-child(13) button {
+    width: 225px;
+}
+
+button {
+    border: none;
+    border-radius: 5%;
+    font-size: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #8A2BE2;
+    color: #7FFF00;
+}
